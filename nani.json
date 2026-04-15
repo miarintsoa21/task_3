@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Indique l'utilisation de package.json
+    directory: "/" # Dossier contenant le package.json
+    schedule:
+      interval: "daily" # Fréquence (daily, weekly, monthly)
